@@ -3,13 +3,13 @@
 Este repositório documenta meus estudos iniciais em infraestrutura,
 redes
 
-## Redes de Computadores
+## 01 - Redes de Computadores
 
 ### O que é uma rede
 Uma rede de computadores é um conjunto de dispositivos interconectados
 com o objetivo de compartilhar dados e recursos.
 
-### Redes moveis e sem fio
+### 02 - Redes moveis e sem fio
 Configuração de dispositivos móveis para acesso sem fio
 
 Rede Wireless: Os celulares usam ondas de rádio para transmitir sinais de voz a antenas montadas em torres localizadas em regiões específicas. Quando é feita uma ligação telefônica, o sinal de voz é retransmitido de uma torre a outra até chegar ao destino. Esse tipo de rede é usado quando você faz uma chamada para outro telefone celular ou para um telefone fixo. Também serve para enviar mensagens diretamente do telefone. O tipo mais comum de rede de telefonia celular é uma rede GSM. As abreviações 3G, 4G, 4G-LTE e 5G são usadas para descrever as redes de celular avançadas que foram otimizadas para transmissão rápida de dados. Atualmente, o 4G ainda domina como a rede móvel atual usada pela maioria dos telefones.
@@ -51,4 +51,27 @@ Quando um dispositivo Bluetooth está no modo detectável, ele transmite as segu
     Informações técnicas, como funcionalidades ou a especificação de Bluetooth compatível
 
 Durante o processo de emparelhamento, um PIN pode ser solicitado para autenticar o processo de emparelhamento.
+
+## 03 - Contruindo uma rede móvel
+Configurar um roteador sem fio integrado e cliente sem fio para estabelecer uma conexão segura com a internet.
+
+Em uma rede doméstica, há diferentes dispositivos conectados na residência, em sua maioria, todos conectados a um único roteador conectado a uma rede de internet ou rede DSL. Dispositivos como: Computadores Desktop, impressoras, TV's, Camêras e afins, todos conectados a mesma rede fornecendo conectivade e controle. Esses são os chamados Home Wirelles Local Area Network (WLAN).
+
+O switch em residências e pequenas empresas, normalmente, tem duas portas principais:
+
+    Porta Ethernet (LAN): São as portas de "saída" do switch onde, conectando os cabos de rede, fornecem internet para outros dispositovos, como citados anteriormente (TV's, impressoras, scanners e afins).
+
+    Porta Internet (WAN): Usada também via cabo para conectar o roteador a internet e assim, fornecer rede para o modem que assim, fornecerá para o resto da residência.
+
+Fora as portas LAN que fornecem internet via cabo, há dispositivos com antenas que efetuam o mesmo serviço de internet para a residência, mas de forma wireless (Wi-FI) para outros dispositivos.
+
+Tecnologias sem fio em residências, são comumente usadas na frequência de 2,4GHz e 5Ghz.
+
+Já se tratando de internet com fio, é uma conexão mais "segura" visto que a perca de dados é menor e, além disso, há diferentes tipos de cabos para uso.
+
+    Cabo de categoria 5e: É o cabo mais comum de se ver no mercado, para residências e micro empresas e escritório. Composto de 4 pares de fios que são trançados para reduzir a interfêrencia elétrica, podem ser usados com os conectores RJ-45, podendo ser comprados em diferentes metragens.
+
+    Cabo coaxial: Hoje, não tão utilizado quanto antes, mas há algumas utilidades para o mesmo, visto que muitos dispositivos ainda tem sua conexão como conexão principal. Possui um fio interno circundado por uma camada isolante tubular, que é então circundada por uma blindagem condutora tubular.
+
+    Cabo de fibra-óptica: Um dos mais modernos utilizados nos dias de hoje, com melhor tempo-reposta entre os citados, tem a melhor conexão de internet e transfêrencia de dados. Podendo ser de vidro ou plástico, tem um diâmetro aproximado ao de um fio de cabelo.
 
