@@ -12,13 +12,19 @@ com o objetivo de compartilhar dados e recursos.
 ### 02 - Redes moveis e sem fio
 Configuração de dispositivos móveis para acesso sem fio
 
-Rede Wireless: Os celulares usam ondas de rádio para transmitir sinais de voz a antenas montadas em torres localizadas em regiões específicas. Quando é feita uma ligação telefônica, o sinal de voz é retransmitido de uma torre a outra até chegar ao destino. Esse tipo de rede é usado quando você faz uma chamada para outro telefone celular ou para um telefone fixo. Também serve para enviar mensagens diretamente do telefone. O tipo mais comum de rede de telefonia celular é uma rede GSM. As abreviações 3G, 4G, 4G-LTE e 5G são usadas para descrever as redes de celular avançadas que foram otimizadas para transmissão rápida de dados. Atualmente, o 4G ainda domina como a rede móvel atual usada pela maioria dos telefones.
+Rede Wireless:
+
+    Os celulares usam ondas de rádio para transmitir sinais de voz a antenas montadas em torres localizadas em regiões específicas. Quando é feita uma ligação telefônica, o sinal de voz é retransmitido de uma torre a outra até chegar ao destino. Esse tipo de rede é usado quando você faz uma chamada para outro telefone celular ou para um telefone fixo. Também serve para enviar mensagens diretamente do telefone. O tipo mais comum de rede de telefonia celular é uma rede GSM. As abreviações 3G, 4G, 4G-LTE e 5G são usadas para descrever as redes de celular avançadas que foram otimizadas para transmissão rápida de dados. Atualmente, o 4G ainda domina como a rede móvel atual usada pela maioria dos telefones.
 
 Além dos transmissores e receptores GSM e 4G/5G, os smartphones fazem conexões de várias maneiras.
 
-Wi-Fi – Transmissores e receptores Wi-Fi localizados no smartphone permitem que o telefone se conecte a redes locais e à Internet. As redes Wi-Fi normalmente pertencem a proprietários particulares, mas costumam oferecer hotspots de acesso público ou para convidado. Um hotspot é uma área onde os sinais de Wi-Fi estão disponíveis.
+Wi-fi:
 
-Bluetooth é uma tecnologia sem fio que permite que os dispositivos se comuniquem em distâncias pequenas. É possível conectar vários dispositivos ao mesmo tempo com Bluetooth.
+    Transmissores e receptores Wi-Fi localizados no smartphone permitem que o telefone se conecte a redes locais e à Internet. As redes Wi-Fi normalmente pertencem a proprietários particulares, mas costumam oferecer hotspots de acesso público ou para convidado. Um hotspot é uma área onde os sinais de Wi-Fi estão disponíveis.
+
+Bluetooth:
+
+    É uma tecnologia sem fio que permite que os dispositivos se comuniquem em distâncias pequenas. É possível conectar vários dispositivos ao mesmo tempo com Bluetooth.
 
 É uma tecnologia de comunicação sem fio que permite a troca de dados entre dispositivos que estejam bem próximos uns dos outros, normalmente apenas alguns centímetros.
 
@@ -59,9 +65,13 @@ Em uma rede doméstica, há diferentes dispositivos conectados na residência, e
 
 O switch em residências e pequenas empresas, normalmente, tem duas portas principais:
 
-    Porta Ethernet (LAN): São as portas de "saída" do switch onde, conectando os cabos de rede, fornecem internet para outros dispositovos, como citados anteriormente (TV's, impressoras, scanners e afins).
+Porta Ethernet (LAN):
 
-    Porta Internet (WAN): Usada também via cabo para conectar o roteador a internet e assim, fornecer rede para o modem que assim, fornecerá para o resto da residência.
+    São as portas de "saída" do switch onde, conectando os cabos de rede, fornecem internet para outros dispositovos, como citados anteriormente (TV's, impressoras, scanners e afins).
+
+Porta Internet (WAN):
+
+    Usada também via cabo para conectar o roteador a internet e assim, fornecer rede para o modem que assim, fornecerá para o resto da residência.
 
 Fora as portas LAN que fornecem internet via cabo, há dispositivos com antenas que efetuam o mesmo serviço de internet para a residência, mas de forma wireless (Wi-FI) para outros dispositivos.
 
@@ -69,9 +79,34 @@ Tecnologias sem fio em residências, são comumente usadas na frequência de 2,4
 
 Já se tratando de internet com fio, é uma conexão mais "segura" visto que a perca de dados é menor e, além disso, há diferentes tipos de cabos para uso.
 
-    Cabo de categoria 5e: É o cabo mais comum de se ver no mercado, para residências e micro empresas e escritório. Composto de 4 pares de fios que são trançados para reduzir a interfêrencia elétrica, podem ser usados com os conectores RJ-45, podendo ser comprados em diferentes metragens.
+Cabo de categoria 5e:
 
-    Cabo coaxial: Hoje, não tão utilizado quanto antes, mas há algumas utilidades para o mesmo, visto que muitos dispositivos ainda tem sua conexão como conexão principal. Possui um fio interno circundado por uma camada isolante tubular, que é então circundada por uma blindagem condutora tubular.
+    É o cabo mais comum de se ver no mercado, para residências e micro empresas e escritório. Composto de 4 pares de fios que são trançados para reduzir a interfêrencia elétrica, podem ser usados com os conectores RJ-45, podendo ser comprados em diferentes metragens.
 
-    Cabo de fibra-óptica: Um dos mais modernos utilizados nos dias de hoje, com melhor tempo-reposta entre os citados, tem a melhor conexão de internet e transfêrencia de dados. Podendo ser de vidro ou plástico, tem um diâmetro aproximado ao de um fio de cabelo.
+Cabo coaxial:
 
+    Hoje, não tão utilizado quanto antes, mas há algumas utilidades para o mesmo, visto que muitos dispositivos ainda tem sua conexão como conexão principal. Possui um fio interno circundado por uma camada isolante tubular, que é então circundada por uma blindagem condutora tubular.
+
+Cabo de fibra-óptica:
+    
+    Um dos mais modernos utilizados nos dias de hoje, com melhor tempo-reposta entre os citados, tem a melhor conexão de internet e transfêrencia de dados. Podendo ser de vidro ou plástico, tem um diâmetro aproximado ao de um fio de cabelo.
+
+----------------------------------------------------------------
+
+## 04 - Configuração de redes sem fio
+
+Conceitos básicos de rede doméstica:
+
+    Uma rede doméstica conecta dispositivos (computadores, celulares, TVs, impressoras) para compartilhar internet, arquivos e serviços. Normalmente usa um roteador, que gerencia a comunicação entre os dispositivos internos e a conexão com a internet (ISP). Cada dispositivo recebe um endereço IP para se identificar na rede.
+
+Tecnologias de rede na residência:
+
+    As redes domésticas podem usar conexões cabeadas (Ethernet) ou sem fio (Wi-Fi). Ethernet oferece mais estabilidade e velocidade, enquanto o Wi-Fi traz mobilidade e praticidade. O roteador doméstico geralmente combina roteador, switch, ponto de acesso wireless e firewall em um único equipamento.
+
+Padrões de rede sem fio:
+
+    As redes Wi-Fi seguem padrões IEEE 802.11, como 802.11b/g/n/ac/ax. Cada padrão define velocidade, alcance e eficiência. Os mais comuns hoje são 802.11n (Wi-Fi 4), 802.11ac (Wi-Fi 5) e 802.11ax (Wi-Fi 6), que oferecem melhor desempenho e suporte a vários dispositivos conectados.
+
+Configurar um roteador doméstico:
+
+    A configuração básica envolve acessar o roteador pelo navegador, definir nome da rede (SSID), escolher um tipo de segurança (WPA2 ou WPA3) e criar uma senha forte. Também é importante alterar o usuário e senha padrão do roteador, atualizar o firmware e posicionar o equipamento em um local central para melhor cobertura do Wi-Fi.
